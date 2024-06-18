@@ -2,6 +2,9 @@
 numpy
 torch>=1.7
 opencv_python
+ai
+pyav
+git+https://github.com/Megvii-BaseDetection/YOLOX.git@main
 loguru
 tqdm
 torchvision
@@ -10,9 +13,12 @@ ninja
 tabulate
 psutil
 tensorboard
-
+setuptools
+wheel
+cmake
 # verified versions
 # pycocotools corresponds to https://github.com/ppwwyyxx/cocoapi
 pycocotools>=2.0.2
 onnx>=1.13.0
-onnx-simplifier==0.4.10
+onnxsim>=0.4.10
+
